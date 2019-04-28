@@ -1,0 +1,1 @@
+	describe := flag.Bool("d", false, "output the first five elements of the data used and along with header information")

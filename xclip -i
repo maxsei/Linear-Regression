@@ -1,0 +1,1 @@
+	columns := flag.String("c", "0,1", "specify the columns that you want to read in from the csv in the format: row,col ")
