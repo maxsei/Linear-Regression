@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"math"
 	"os"
 
 	"gonum.org/v1/plot/plotter"
@@ -69,6 +70,15 @@ func main() {
 		ptsPred[i].Y = m*X[i] + b
 	}
 	plotRegression(pts, ptsPred, *outputFile)
+}
+
+// calcMAE calculates the mean absolute error given data points and slope
+// intercept values
+func calcMAE(X, Y []float64, m, b float64) (mAE float64) {
+	for i := range Y {
+		mAE += math.Abs(Y[i]-(m*X[i]+b)) / float64(len(Y))
+	}
+	return
 }
 
 // predict will predict the y value for the associated x values

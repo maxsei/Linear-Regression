@@ -26,15 +26,6 @@ func correlationCoefficient(X, Y []float64) float64 {
 		math.Pow((n*sumX2-math.Pow(sumX, 2))*(n*sumY2-math.Pow(sumY, 2)), .5)
 }
 
-// calcMAE calculates the mean absolute error given data points and slope
-// intercept values
-func calcMAE(X, Y []float64, m, b float64) (mAE float64) {
-	for i := range Y {
-		mAE += math.Abs(Y[i]-(m*X[i]+b)) / float64(len(Y))
-	}
-	return
-}
-
 // newtonsRegression will use netwons method to computer linear regression on a
 // two dimensional vectorspace
 func newtonsRegression(X, Y []float64, epsilon float64, show bool) (float64, float64) {
