@@ -1,0 +1,104 @@
+{
+	"ImportPath": "github.com/maxsei/linear_regression",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/ajstarks/svgo",
+			"Comment": "go.weekly.2012-01-27-141-g6ce6a3b",
+			"Rev": "6ce6a3bcf6cde6c5007887677ebd148ec30f42a4"
+		},
+		{
+			"ImportPath": "github.com/fogleman/gg",
+			"Comment": "v1.3.0-3-g72436a1",
+			"Rev": "72436a171bf31757dc87fb8fa9f7485307350307"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/raster",
+			"Comment": "release-137-ge2365df",
+			"Rev": "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+		},
+		{
+			"ImportPath": "github.com/golang/freetype/truetype",
+			"Comment": "release-137-ge2365df",
+			"Rev": "e2365dfdc4a05e4b8299a783240d4a7d5a65d4e4"
+		},
+		{
+			"ImportPath": "github.com/jung-kurt/gofpdf",
+			"Comment": "v1.1.1",
+			"Rev": "5262aa851a9a9faf10c562b221986ac190099efc"
+		},
+		{
+			"ImportPath": "golang.org/x/image/draw",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/font/basicfont",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/f64",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/math/fixed",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/tiff",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "golang.org/x/image/tiff/lzw",
+			"Rev": "59b11bec70c7cc648cf3cc54683683b76d5b5e6b"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/palette",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/plotter",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/tools/bezier",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/draw",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/fonts",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/vgeps",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/vgimg",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/vgpdf",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		},
+		{
+			"ImportPath": "gonum.org/v1/plot/vg/vgsvg",
+			"Rev": "3a5f52653745fa15b552c97e1d8052e496e85503"
+		}
+	]
+}
