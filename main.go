@@ -15,7 +15,7 @@ func main() {
 
 	// build flags
 	iterationsVisible := flag.Bool("v", true, "make each iteration of the newtons method process visible in stdout")
-	inputFile := flag.String("i", "regression_test.csv", "input path to csv data source where only the first two columns are read")
+	inputFile := flag.String("i", "test.csv", "input path to csv data source where only the first two columns are read")
 	outputFile := flag.String("o", "defaults to name of input data", "the name of the file that the line is outputted to. Must be *.png,*jpeg. *bmp")
 	columns := flag.String("c", "0,1", "specify the columns that you want to read in from the csv in the format: row,col ")
 	describe := flag.Bool("d", false, "output the first five elements of the data used and along with header information")
